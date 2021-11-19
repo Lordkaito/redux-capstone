@@ -1,0 +1,29 @@
+.country-container {
+  text-align: center;
+  padding-top: calc(0.7rem + 20px);
+  background-color: #ec4c8a;
+  height: 100%;
+}
+
+/* .map-icon {
+  font-size: 3rem;
+} */
+
+.country-name {
+  color: white;
+}
+
+.country-info {
+  font-size: 1.3rem;
+}
+
+.map {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map img {
+  width: 100%;
+}

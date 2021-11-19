@@ -1,0 +1,32 @@
+.navbar-container {
+  width: 100%;
+  -webkit-box-shadow: 5px 0 18px -6px #000;
+  box-shadow: 5px 0 18px -6px #000;
+  background-color: #ec4c8a;
+  position: fixed;
+}
+
+.navbar {
+  max-width: 375px;
+  display: flex;
+  padding: 0.7rem;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.settings {
+  cursor: pointer;
+}
+
+.home {
+  background-color: transparent;
+  color: white;
+  padding: 0.2rem;
+  cursor: pointer;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.grid-container {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ec4c8a;
+  padding-bottom: 0.7rem;
+}
+
+.grid-item {
+  padding: 10px;
+  color: black;
+  -webkit-box-shadow: inset -2px 1px 17px -7px #000;
+  box-shadow: inset -2px 1px 10px -5px #000;
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.showcase-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ec4c8a;
+}
+
+.image-showcase {
+  width: 100%;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.search-input {
+  max-width: 80%;
+  font-size: 1.1rem;
+  padding: 0.3rem;
+  width: 100%;
+  outline: none;
+}
+
+.search {
+  background-color: transparent;
+  padding: 0.2rem;
+  margin: 0.3rem;
+  font-size: 1.1rem;
+  border: 1px solid #ec4c8a;
+  border-radius: 5px;
+  color: white;
+}

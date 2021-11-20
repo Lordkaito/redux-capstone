@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.grid-container {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ec4c8a;
+  padding-bottom: 0.7rem;
+}
+
+.grid-item {
+  padding: 20px;
+  color: black;
+  text-align: right;
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.showcase-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ec4c8a;
+}
+
+.image-showcase {
+  width: 100%;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.search-input {
+  max-width: 80%;
+  font-size: 1.1rem;
+  padding: 0.3rem;
+  width: 100%;
+  outline: none;
+}
+
+.search {
+  background-color: transparent;
+  padding: 0.2rem;
+  margin: 0.3rem;
+  font-size: 1.1rem;
+  border: 1px solid #ec4c8a;
+  border-radius: 5px;
+  color: white;
+}
+
+.grid-container .grid-item:nth-child(0n + 2),
+.grid-container .grid-item:nth-child(0n + 3),
+.grid-container .grid-item:nth-child(0n + 6),
+.grid-container .grid-item:nth-child(0n + 7),
+.grid-container .grid-item:nth-child(0n + 10),
+.grid-container .grid-item:nth-child(0n + 11),
+.grid-container .grid-item:nth-child(0n + 14),
+.grid-container .grid-item:nth-child(0n + 15),
+.grid-container .grid-item:nth-child(0n + 18),
+.grid-container .grid-item:nth-child(0n + 19),
+.grid-container .grid-item:nth-child(0n + 22),
+.grid-container .grid-item:nth-child(0n + 23),
+.grid-container .grid-item:nth-child(0n + 26),
+.grid-container .grid-item:nth-child(0n + 27),
+.grid-container .grid-item:nth-child(0n + 30),
+.grid-container .grid-item:nth-child(0n + 31),
+.grid-container .grid-item:nth-child(0n + 34),
+.grid-container .grid-item:nth-child(0n + 35),
+.grid-container .grid-item:nth-child(0n + 38),
+.grid-container .grid-item:nth-child(0n + 39),
+.grid-container .grid-item:nth-child(0n + 42),
+.grid-container .grid-item:nth-child(0n + 43),
+.grid-container .grid-item:nth-child(0n + 46),
+.grid-container .grid-item:nth-child(0n + 47),
+.grid-container .grid-item:nth-child(0n + 50),
+.grid-container .grid-item:nth-child(0n + 51),
+.grid-container .grid-item:nth-child(0n + 54),
+.grid-container .grid-item:nth-child(0n + 55),
+.grid-container .grid-item:nth-child(0n + 58),
+.grid-container .grid-item:nth-child(0n + 59),
+.grid-container .grid-item:nth-child(0n + 62),
+.grid-container .grid-item:nth-child(0n + 63),
+.grid-container .grid-item:nth-child(0n + 66),
+.grid-container .grid-item:nth-child(0n + 67),
+.grid-container .grid-item:nth-child(0n + 70),
+.grid-container .grid-item:nth-child(0n + 71),
+.grid-container .grid-item:nth-child(0n + 74),
+.grid-container .grid-item:nth-child(0n + 75),
+.grid-container .grid-item:nth-child(0n + 78),
+.grid-container .grid-item:nth-child(0n + 79),
+.grid-container .grid-item:nth-child(0n + 82),
+.grid-container .grid-item:nth-child(0n + 83),
+.grid-container .grid-item:nth-child(0n + 86),
+.grid-container .grid-item:nth-child(0n + 87),
+.grid-container .grid-item:nth-child(0n + 90),
+.grid-container .grid-item:nth-child(0n + 91),
+.grid-container .grid-item:nth-child(0n + 94),
+.grid-container .grid-item:nth-child(0n + 95),
+.grid-container .grid-item:nth-child(0n + 98),
+.grid-container .grid-item:nth-child(0n + 99),
+.grid-container .grid-item:nth-child(0n + 102),
+.grid-container .grid-item:nth-child(0n + 103),
+.grid-container .grid-item:nth-child(0n + 106),
+.grid-container .grid-item:nth-child(0n + 107),
+.grid-container .grid-item:nth-child(0n + 110),
+.grid-container .grid-item:nth-child(0n + 111),
+.grid-container .grid-item:nth-child(0n + 114),
+.grid-container .grid-item:nth-child(0n + 115),
+.grid-container .grid-item:nth-child(0n + 118),
+.grid-container .grid-item:nth-child(0n + 119),
+.grid-container .grid-item:nth-child(0n + 122),
+.grid-container .grid-item:nth-child(0n + 123),
+.grid-container .grid-item:nth-child(0n + 126),
+.grid-container .grid-item:nth-child(0n + 127),
+.grid-container .grid-item:nth-child(0n + 130),
+.grid-container .grid-item:nth-child(0n + 131),
+.grid-container .grid-item:nth-child(0n + 134),
+.grid-container .grid-item:nth-child(0n + 135),
+.grid-container .grid-item:nth-child(0n + 138),
+.grid-container .grid-item:nth-child(0n + 139),
+.grid-container .grid-item:nth-child(0n + 142),
+.grid-container .grid-item:nth-child(0n + 143),
+.grid-container .grid-item:nth-child(0n + 146),
+.grid-container .grid-item:nth-child(0n + 147),
+.grid-container .grid-item:nth-child(0n + 150),
+.grid-container .grid-item:nth-child(0n + 151),
+.grid-container .grid-item:nth-child(0n + 154),
+.grid-container .grid-item:nth-child(0n + 155),
+.grid-container .grid-item:nth-child(0n + 158),
+.grid-container .grid-item:nth-child(0n + 159),
+.grid-container .grid-item:nth-child(0n + 162),
+.grid-container .grid-item:nth-child(0n + 163),
+.grid-container .grid-item:nth-child(0n + 166),
+.grid-container .grid-item:nth-child(0n + 167),
+.grid-container .grid-item:nth-child(0n + 170),
+.grid-container .grid-item:nth-child(0n + 171),
+.grid-container .grid-item:nth-child(0n + 174),
+.grid-container .grid-item:nth-child(0n + 175),
+.grid-container .grid-item:nth-child(0n + 178),
+.grid-container .grid-item:nth-child(0n + 179),
+.grid-container .grid-item:nth-child(0n + 182),
+.grid-container .grid-item:nth-child(0n + 183),
+.grid-container .grid-item:nth-child(0n + 186),
+.grid-container .grid-item:nth-child(0n + 187),
+.grid-container .grid-item:nth-child(0n + 190),
+.grid-container .grid-item:nth-child(0n + 191),
+.grid-container .grid-item:nth-child(0n + 194),
+.grid-container .grid-item:nth-child(0n + 195) {
+  background-color: #fc4c8a;
+}

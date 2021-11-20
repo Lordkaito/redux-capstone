@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  background-color: #ec4c8a;
+}

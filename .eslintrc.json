@@ -21,7 +21,8 @@
     "prefer-const": "off",
     "prefer-destructuring": "off",
     "dot-notation": "off",
-    "max-len": "off"
+    "max-len": "off",
+    "no-plusplus": "off"
   },
   "ignorePatterns": [
     "dist/",

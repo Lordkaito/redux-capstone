@@ -22,6 +22,11 @@ const HomePage = () => {
     const capital = country.charAt(0).toUpperCase() + country.slice(1);
     dispatch(fetchDataForCountry(myState.AllCountriesReducer[capital]));
   };
+  const countryToSearch = (e) => {
+    const countryToSearch = document.querySelector('input').value;
+    const capital = countryToSearch.charAt(0).toUpperCase() + countryToSearch.slice(1).toLowerCase();
+    setMySearch(capital);
+  };
   return (
     <>
       <div className="showcase-container">
@@ -32,12 +37,8 @@ const HomePage = () => {
           type="text"
           placeholder="Search for a country"
           className="search-input"
-          />
-        <button className="search" type="button" onClick={(e) => {
-          const countryToSearch = document.querySelector('input').value;
-          const capital = countryToSearch.charAt(0).toUpperCase() + countryToSearch.slice(1).toLowerCase();
-          setMySearch(capital);
-        }}>Search</button>
+        />
+        <button className="search" type="button" onClick={(e) => countryToSearch(e)}>Search</button>
       </div>
       {mySearch !== '' ? (
         AllCountriesObj.filter((country) => country.toLowerCase() === mySearch.toLowerCase()).map((country) => (

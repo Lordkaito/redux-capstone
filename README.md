@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Run npm test. You will see the result of the tests on your terminal.
 
-## Authors
+## Author
 
 👤 **Isaí Céspedes Sánchez**
 

@@ -11,7 +11,7 @@ const Navbar = () => {
         <div>
           <ul className="navbar">
             <li>
-              {window.location.href !== 'https://deploy-preview-1--silly-almeida-f20b56.netlify.app/' && <Link to="/" className="home"> <AiOutlineLeft /> </Link>
+              {window.location.href !== 'https://deploy-preview-1--silly-almeida-f20b56.netlify.app/#/' && <Link to="/" className="home"> <AiOutlineLeft /> </Link>
               }
             </li>
             <li data-testid="tab-name">
